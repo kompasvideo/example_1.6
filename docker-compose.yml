@@ -2,6 +2,6 @@ version: '3.8'
 services:
   health:
     build: .
-    image: otus_1.2
+    image: otus_1.6
     ports:
       - "8080:8000"

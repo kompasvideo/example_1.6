@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: app-kuber
+spec:
+  containers:
+  - name: app-kuber-container
+    image: andrey1andrey/otus_1.6:latest
+    ports:
+    - containerPort: 8000	
